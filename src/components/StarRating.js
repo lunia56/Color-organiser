@@ -5,7 +5,7 @@ import Star from "./Star";
 // компонент StarRating содержит состояние и возвращает отрисовку звезд с описанием
 function StarRating({
   style = {},
-  totalStars = 10,
+  totalStars = 5,
   selectedStars = 0,
   onRate = f => f
 }) {
@@ -26,7 +26,7 @@ function StarRating({
         />
       ))}
       <p>
-        {selectedStars} of {totalStars} stars {/* выводим динамичное описание кол-ва выбранных звезд */}
+        {selectedStars} звезд из {totalStars}  {/* выводим динамичное описание кол-ва выбранных звезд */}
       </p>
 
     </div>

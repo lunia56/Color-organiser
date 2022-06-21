@@ -2,12 +2,9 @@ import React, { createContext, useContext, useState } from 'react';
 import colorData from "../color-data.json";
 import { v4 } from "uuid" // пакет для генерации уникальных id-шников
 
-export const ColorContext = createContext(); // создаем контекст для простого использования сстояния из любого места приложения
+export const ColorContext = createContext(); // создаем контекст 
 
 export const useColors = () => useContext(ColorContext) // создаем свой хук для читаемости
-
-
-
 
 
 
@@ -16,8 +13,9 @@ export default function ColorProvider({ children }) {
     const [colors, setColors] = useState(colorData)
 
 
-    const createColor = (title, color) => { // вызывая onNewColor мы сохраняем новый цвет в состояние (мы их передали из дочернего компонента)
-        const newColors = [  // создаем новый массив цветов
+    // Добавление цвета
+    const createColor = (title, color) => {
+        const newColors = [
 
             {
                 id: v4(),    // создаем новый объект цвета с уникальным id
@@ -25,9 +23,9 @@ export default function ColorProvider({ children }) {
                 title,       // новый title и color
                 color
             },
-            ...colors       // берем все старые цвета,
+            ...colors        // добавляем все старые цвета,
         ];
-        setColors(newColors); // изменяем состояние добавляя обновленный массив с цветами
+        setColors(newColors);// изменяем состояние добавляя обновленный массив с цветами
     }
 
 
