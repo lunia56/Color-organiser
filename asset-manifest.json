@@ -1,13 +1,13 @@
 {
-  "main.js": "/Color-organiser/static/js/main.eaaf45fb.chunk.js",
-  "main.js.map": "/Color-organiser/static/js/main.eaaf45fb.chunk.js.map",
-  "static/css/1.e57023e7.chunk.css": "/Color-organiser/static/css/1.e57023e7.chunk.css",
-  "static/js/1.c21c5645.chunk.js": "/Color-organiser/static/js/1.c21c5645.chunk.js",
-  "static/js/1.c21c5645.chunk.js.map": "/Color-organiser/static/js/1.c21c5645.chunk.js.map",
-  "runtime~main.js": "/Color-organiser/static/js/runtime~main.b7935be9.js",
-  "runtime~main.js.map": "/Color-organiser/static/js/runtime~main.b7935be9.js.map",
-  "static/css/1.e57023e7.chunk.css.map": "/Color-organiser/static/css/1.e57023e7.chunk.css.map",
-  "index.html": "/Color-organiser/index.html",
-  "precache-manifest.318283970677e6d9c9a8c3d92e1bba85.js": "/Color-organiser/precache-manifest.318283970677e6d9c9a8c3d92e1bba85.js",
-  "service-worker.js": "/Color-organiser/service-worker.js"
+  "main.js": "/Color-organiser.github.io/static/js/main.eaaf45fb.chunk.js",
+  "main.js.map": "/Color-organiser.github.io/static/js/main.eaaf45fb.chunk.js.map",
+  "static/css/1.e57023e7.chunk.css": "/Color-organiser.github.io/static/css/1.e57023e7.chunk.css",
+  "static/js/1.c21c5645.chunk.js": "/Color-organiser.github.io/static/js/1.c21c5645.chunk.js",
+  "static/js/1.c21c5645.chunk.js.map": "/Color-organiser.github.io/static/js/1.c21c5645.chunk.js.map",
+  "runtime~main.js": "/Color-organiser.github.io/static/js/runtime~main.2298de51.js",
+  "runtime~main.js.map": "/Color-organiser.github.io/static/js/runtime~main.2298de51.js.map",
+  "static/css/1.e57023e7.chunk.css.map": "/Color-organiser.github.io/static/css/1.e57023e7.chunk.css.map",
+  "index.html": "/Color-organiser.github.io/index.html",
+  "precache-manifest.715d13e32a72e685d05932f03f41384f.js": "/Color-organiser.github.io/precache-manifest.715d13e32a72e685d05932f03f41384f.js",
+  "service-worker.js": "/Color-organiser.github.io/service-worker.js"
 }
